@@ -17,6 +17,7 @@ public class PalindromeChecker{
         Scanner input = new Scanner(System.in);
         String temp = input.nextLine();
         char[] word = temp.toCharArray();
+        input.close();
         System.out.println(isPalindrome(word));
     }
 }
